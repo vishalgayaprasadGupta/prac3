@@ -17,6 +17,15 @@
         android:layout_marginTop="200dp"
         android:layout_gravity="center"
         android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="value from previous page"
+        android:layout_gravity="center_vertical"/>
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
